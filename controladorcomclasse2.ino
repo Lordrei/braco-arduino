@@ -124,7 +124,7 @@ void loop() {
     case '6':
       Serial.print("A vertical esta no ");
       vertical.diminuiGrau();
-      delay(1000);
+      delay(500);
       break;
       
     case '7':
