@@ -66,7 +66,7 @@ class Motor{
 
 };
 
-Motor garra = Motor(9,  20, 0,  5);
+Motor garra = Motor(9,  15, 0,  15);
 Motor base  = Motor(8, 180, 0, 20);
 Motor vertical = Motor(10, 180, 0, 20);
 Motor horizontal = Motor (11, 180, 0, 20);
@@ -94,49 +94,49 @@ void loop() {
     case '1':
       Serial.print("A garra esta no ");
       garra.aumentaGrau();
-      delay(1000);
+      delay(500);
       break;
 
     case '2':
       Serial.print("A garra esta no ");
       garra.diminuiGrau();
-      delay(1000);
+      delay(500);
       break;
      
     case '3':
-      Serial.print("A garra esta no ");
+      Serial.print("A base esta no ");
       base.aumentaGrau();
-      delay(1000);
+      delay(500);
       break;
 
     case '4':
-      Serial.print("A garra esta no ");
+      Serial.print("A base esta no ");
       base.diminuiGrau();
-      delay(1000);
+      delay(500);
       break;
 
     case '5':
-      Serial.print("A garra esta no ");
+      Serial.print("A vertical esta no ");
       vertical.aumentaGrau();
-      delay(1000);
+      delay(500);
       break;
 
     case '6':
-      Serial.print("A garra esta no ");
+      Serial.print("A vertical esta no ");
       vertical.diminuiGrau();
       delay(1000);
       break;
       
     case '7':
-      Serial.print("A garra esta no ");
+      Serial.print("A horizontal esta no ");
       horizontal.aumentaGrau();
-      delay(1000);
+      delay(500);
       break;
 
     case '8':
-      Serial.print("A garra esta no ");
+      Serial.print("A horixzontal esta no ");
       horizontal.diminuiGrau();
-      delay(1000);
+      delay(500);
       break;
       
     
